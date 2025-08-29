@@ -1,10 +1,50 @@
 # My coding Notebook
 
 ## Table of Contents
-- [Day 1](#day-1)
-  - [Notes](#notes)
-  - [Practice](#practice)
+- [Flutter Guided Notes](#Flutter-Notes)
+  - [What is Flutter?](#What-is-Flutter)
+  - [Ket-y Terms and Definition](#practice)
 - [Day 2](#day-2)
+-[Notebook Style Guide].(#markdown-style-for-guide-for-coding-notebook).
+
+
+## Flutter Notes
+
+###  What is Flutter?
+- Definition:
+- Why is it useful?
+
+---
+
+###  Key Terms and Definitions
+
+| Term             | Definition                                      | Example / Notes                          |
+|------------------|--------------------------------------------------|-------------------------------------------|
+| Widget           |                                                  |                                           |
+| MaterialApp      |                                                  |                                           |
+| Scaffold         |                                                  |                                           |
+| StatelessWidget  |                                                  |                                           |
+| StatefulWidget   |                                                  |                                           |
+| Navigator        |                                                  |                                           |
+| AppBar           |                                                  |                                           |
+| Column           |                                                  |                                           |
+| Row              |                                                  |                                           |
+| Container        |                                                  |                                           |
+| Text             |                                                  |                                           |
+| Image.network    |                                                  |                                           |
+
+---
+
+###  Layout and Design Widgets
+- How do you center a widget?
+- How do you align something to the left or right?
+- What widget adds space around content?
+
+
+
+
+
+
 
 [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
 ## Markdown Style Guide for Coding Notebooks
@@ -14,13 +54,13 @@ This ensures your notes are easy for you (and others) to read later.
 
 ---
 
-## 🔹 Headings
+##  Headings
 **When to use:** Organize your notebook into sections (like days, topics, or projects).  
 - `#` for the notebook title (use once at the top).  
 - `##` for each day or major topic.  
 - `###` for subsections (like "Notes", "Practice", "Reflections").  
 
-✅ Example:
+ Example:
 
 
 # My Coding Notebook
