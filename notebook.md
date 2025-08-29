@@ -11,8 +11,8 @@
 ## Flutter Notes
 
 ###  What is Flutter?
-- Definition:
-- Why is it useful?
+- Definition: A framework made by google for biulding apps that work on a web, Android, and IOS-with one codebase.
+- Why is it useful? Uses the DART Programming language.
 
 ---
 
@@ -20,18 +20,21 @@
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  |                                                  |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
+| Widget           | Basic building blck of a Flutter app. Everything is a widget                                                 |                                           |
+| MaterialApp      | The root of the app. Sets up routes and themes.                                                 |                                           |
+| Scaffold         | Provides basic visual layout-like a header, body, floating button                                                 |                                           |
+| StatelessWidget  | Predefined paths to naviget between screens                                                 |                                           |
+| StatefulWidget   | Manages screen trasitions                                                 |                                           |
+| Navigator        | A widget that can change over time                                                 |                                           |
+| AppBar           | A widget that doesn't change                                                 |                                           |
+| Column           | Top navigation bar                                                 |                                           |
+| Row              | The function that runs the app                                                 |                                           |
 | Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
+| Text             |   Displays text                                               |                                           |
 | Image.network    |                                                  |                                           |
+|Padding|||
+|Center|||
+
 
 ---
 
