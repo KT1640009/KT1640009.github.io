@@ -4,8 +4,10 @@
 - [Flutter Guided Notes](#Flutter-Notes)
   - [What is Flutter?](#What-is-Flutter)
   - [Ket-y Terms and Definition](#practice)
-- [Day 2](#day-2)
--[Notebook Style Guide].(#markdown-style-for-guide-for-coding-notebook).
+- [layout and design widgets](layout-and-design-widgets)
+- [Code Definitions](#code_definitions)
+- [Notebook Style Guide](#markdown-style-for-guide-for-coding-notebook).
+
 
 
 ## Flutter Notes
@@ -42,6 +44,52 @@
 - How do you center a widget?
 - How do you align something to the left or right?
 - What widget adds space around content?
+
+
+
+## Code Definitions
+
+| Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
+|------|------------|--------------------------|-------------------|-------------|
+|variable  | A named container used to store a value that may change. | `var x = 5;` |  |  |
+|constant  | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
+|Data type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |A senctence vs an age  |  |
+|string    | A sequence of characters used to represent words or text. | `"Hello World"` |The objective of a video game  |  |
+|integer   | Whole number values. | `int age = 16;` |Counting  |  |
+|double    | Number values with decimals. | `double age = 16.2;` |Math calculation  |  |
+|boolean   | A value that can be true or false. | `bool isLoggedIn = false;` |Tiktok can make decisions on what you like to watch  |  |
+|list      | A collection of values in a specific order. | `List<String> names = [];` |Newest to oldest released videos  |  |
+|null      | A special value that means “nothing.” | `String? name = null;` |When a level hasn't loaded in yet  |  |
+|function  | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |starting up a car |  |
+|parameter | The information passed into a function to change how it works. | `greet(String name)` |Chcaracter custimization  |  |
+|return    | The result a function gives back. | `return total;` |being dinied by someone or something  |  |
+|scope     | Where a variable or function can be used. | (No set syntax — concept-based) |you van't use a subway card at starbucks  |  |
+|class     | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |in a game, you will have different classes with different character  |  |
+|object    | A specific version of a class. | `Dog myDog = Dog();` |  |  |
+|property  | A variable that belongs to a class/object. | `String name;` |  |  |
+|method    | A function that belongs to a class. | `void bark() {}` |  |  |
+|constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
+|abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
+|override  | Changing how a built-in or inherited function behaves. | `@override` |  |  |
+|void      | A function that does not return a value. | `void printMessage() {}` |  |  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
