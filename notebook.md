@@ -80,9 +80,9 @@
 |------|----------------------------|----------------|-------------------|-------------|
 |Main       | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |Angry Birds  |  |
 |MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |My Space|  |
-|Column     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
-|Row        | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
-|      | A widget that shows things side-by-side. | `Row(...)` |  |  |
+|Column     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |Stacked on top of each other  |  |
+|Row        | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |side by side  |  |
+|Container  | A widget that shows things side-by-side. | `Row(...)` |  |  |
 |      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
 |      | A widget to display text on the screen. | `Text('Hello')` |  |  |
 |      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
