@@ -5,6 +5,7 @@
   - [What is Flutter?](#What-is-Flutter)
   - [Ket-y Terms and Definition](#practice)
 - [layout and design widgets](layout-and-design-widgets)
+- [Definitions with Structures](#flutter-definitions-with-strutures)
 - [Code Definitions](#code_definitions)
 - [Notebook Style Guide](#markdown-style-for-guide-for-coding-notebook).
 
@@ -65,16 +66,40 @@
 |return    | The result a function gives back. | `return total;` |being dinied by someone or something  |  |
 |scope     | Where a variable or function can be used. | (No set syntax — concept-based) |you van't use a subway card at starbucks  |  |
 |class     | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |in a game, you will have different classes with different character  |  |
-|object    | A specific version of a class. | `Dog myDog = Dog();` |  |  |
-|property  | A variable that belongs to a class/object. | `String name;` |  |  |
-|method    | A function that belongs to a class. | `void bark() {}` |  |  |
-|constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |  |  |
-|abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |  |  |
-|override  | Changing how a built-in or inherited function behaves. | `@override` |  |  |
-|void      | A function that does not return a value. | `void printMessage() {}` |  |  |
+|object    | A specific version of a class. | `Dog myDog = Dog();` |Everything |  |
+|property  | A variable that belongs to a class/object. | `String name;` |Anything that can be owned  |  |
+|method    | A function that belongs to a class. | `void bark() {}` |A action that belongs to a specific class|  |
+|constructor | A special function used to set up a class when it’s created. | `Dog(this.name);` |Building a house|  |
+|abstraction | Hiding the inner workings of code so users only interact with what they need. | (Concept — not specific code) |Remote control|  |
+|override  | Changing how a built-in or inherited function behaves. | `@override` |Changing things on a google doc  |  |
+|void      | A function that does not return a value. | `void printMessage() {}` |a task like displaying text to the console  |  |
 
+## Flutter Definitions with structures
 
-
+| Term | Definition and Description | Base Structure | Real Life Example | App Example |
+|------|----------------------------|----------------|-------------------|-------------|
+|Main       | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |Angry Birds  |  |
+|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |My Space|  |
+|Column     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |  |  |
+|Row        | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |  |  |
+|      | A widget that shows things side-by-side. | `Row(...)` |  |  |
+|      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |  |  |
+|      | A widget to display text on the screen. | `Text('Hello')` |  |  |
+|      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |  |  |
+|      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |  |  |
+|      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |  |  |
+|      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |  |  |
+|      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |  |  |
+|      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |  |  |
+|      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |  |  |
+|      | Aligns content in the center of the screen or container. | `Center(child: ...)` |  |  |
+|      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |  |  |
+|      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
+|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|      | Required in every widget class to describe what to show. | `build` |  |  |
+|      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
+|      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
+|      | A keyword that means the value won't change and is set once. | `const` |  |  |
 
 
 
