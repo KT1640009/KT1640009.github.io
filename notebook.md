@@ -52,9 +52,10 @@
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|variable  | A named container used to store a value that may change. | `var x = 5;` |  |  |
-|constant  | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-|Data type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |A senctence vs an age  |  |
+|variable  | A named container used to store a value that may change. | `var x = 5;` |a property  |title: 'TSA Portfolio',  |
+|constant  | A fixed value that cannot change once set. | `const PI = 3.14;` |  |const MyPortfolioApp({super.key});
+  |
+|Data type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |A senctence vs an age  |debugShowCheckedModeBanner: false,  |
 |string    | A sequence of characters used to represent words or text. | `"Hello World"` |The objective of a video game  |  |
 |integer   | Whole number values. | `int age = 16;` |Counting  |  |
 |double    | Number values with decimals. | `double age = 16.2;` |Math calculation  |  |
@@ -78,24 +79,40 @@
 
 | Term | Definition and Description | Base Structure | Real Life Example | App Example |
 |------|----------------------------|----------------|-------------------|-------------|
-|Main       | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |Angry Birds  |  |
-|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |My Space|  |
-|scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |template  |  |
-|colum        | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |Tables  |  |
-|Row  | A widget that shows things side-by-side. | `Row(...)` |side by side  |  |
-|Container      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |storage  |  |
-|text      | A widget to display text on the screen. | `Text('Hello')` |words  |  |
+|Main       | A function that runs when your app starts. It tells Flutter what app to show. | `void main() => runApp(MyApp());` |Angry Birds  |void main() => runApp(MyPortfolioApp());  |
+|MaterialApp| The widget that sets up your whole app’s look and navigation. | `MaterialApp(...)` |My Space|return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'TSA Portfolio',
+      theme: ThemeData(  |
+|scaffold     | A widget that gives you the basic layout: background, navigation bar, floating button, etc. | `Scaffold(...)` |template  |return Scaffold(
+      body: Column(
+ mainAxisAlignment: MainAxisAlignment.start,
+        children: [  |
+|colum        | A widget that holds and displays your content in a straight line from top to bottom. | `Column(...)` |Tables  |child: Column(
+        children: [  |
+|Row  | A widget that shows things side-by-side. | `Row(...)` |side by side  |child: Row(
+        children: [  |
+|Container      | A box that holds other widgets. You can add color, padding, borders, or size. | `Container(...)` |storage  |return Container(
+      width: 160,  |
+|text      | A widget to display text on the screen. | `Text('Hello')` |words  |Text(
+            content,  |
 |Image network      | A widget to show an image using a link from the internet. | `Image.network('https://...')` |images |  |
-|onpressed      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |trigger  |  |
-|stateless widget      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |the home page  |  |
+|onpressed      | A clickable button that floats above content. You choose what happens when it's clicked. | `ElevatedButton(onPressed: ..., child: ...)` |trigger  |onPressed: () => Navigator.pushNamed(context, '/showcase'),  |
+|stateless widget      | The code that gets run when a button is tapped or something happens. | `onPressed: () => doSomething()` |the home page  |class MyPortfolioApp extends StatelessWidget {
+  const MyPortfolioApp({super.key});
+  |
 |statefull widget      | A class that creates widgets that never change. Good for static screens. | `class HomeScreen extends StatelessWidget` |sumitted work   |  |
-|navigator      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |lets u got to different page  |  |
-|padding      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |make space around where u sit  |  |
-|center      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |the center  |  |
-|wrap    | Aligns content in the center of the screen or container. | `Center(child: ...)` |when typing in docs and it wraps the text  |  |
-|override      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |going over the limit  |  |
-|widget build      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |  |
-|      | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
+|navigator      | A class for widgets that can change while the app is running. | `class MyWidget extends StatefulWidget` |lets u got to different page  |Navigator.pushNamed(context, '/showcase'),  |
+|padding      | Lets you move from one screen to another using route names. | `Navigator.pushNamed(context, '/about')` |make space around where u sit  | padding: const EdgeInsets.all(12),  |
+|center      | Makes space around a widget inside its container. | `Padding(padding: EdgeInsets.all(8.0), child: ...)` |the center  |textAlign: TextAlign.center,  |
+|wrap    | Aligns content in the center of the screen or container. | `Center(child: ...)` |when typing in docs and it wraps the text  | Wrap(alignment: WrapAlignment.center, children: puppyUrls.map((url) => puppyImage(url)).toList()),
+          ElevatedButton(  |
+|override      | Automatically puts widgets onto a new line when there's no space. | `Wrap(children: [...])` |going over the limit  |@override
+  Widget build(BuildContext context) {
+    return MaterialApp(  |
+|widget build      | This marks a method as one that’s replacing a method in a parent class. | `@override` |  |Widget build(BuildContext context) {
+    return MaterialApp(  |
+|    | The special function in every widget that describes what gets drawn on the screen. | `Widget build(BuildContext context) {...}` |  |  |
 |Build      | Required in every widget class to describe what to show. | `build` |  |  |
 |BuildConext      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 super.key|      | A keyword used to pass a value to the parent widget. | `super.key` |emailing a person  |  |
