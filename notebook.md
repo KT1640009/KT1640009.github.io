@@ -54,7 +54,6 @@
 |------|------------|--------------------------|-------------------|-------------|
 |variable  | A named container used to store a value that may change. | `var x = 5;` |a property  |title: 'TSA Portfolio',  |
 |constant  | A fixed value that cannot change once set. | `const PI = 3.14;` |  |const MyPortfolioApp({super.key});
-  |
 |Data type | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |A senctence vs an age  |debugShowCheckedModeBanner: false,  |
 |string    | A sequence of characters used to represent words or text. | `"Hello World"` |The objective of a video game  |  |
 |integer   | Whole number values. | `int age = 16;` |Counting  |  |
