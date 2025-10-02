@@ -7,7 +7,7 @@
 - [layout and design widgets](layout-and-design-widgets)
 - [Definitions with Structures](#flutter-definitions-with-strutures)
 - [Code Definitions](#code_definitions)
-- [Notebook Style Guide](#markdown-style-for-guide-for-coding-notebook).
+- [Notebook Style Guide](#markdown-style-for-guide).
 
 
 
