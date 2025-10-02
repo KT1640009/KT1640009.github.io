@@ -32,7 +32,7 @@
 | AppBar           | A widget that doesn't change                                                 |                                           |
 | Column           | Top navigation bar                                                 |                                           |
 | Row              | The function that runs the app                                                 |                                           |
-| Container        |                                                  |                                           |
+| Container        | Storing data                                                 |                                           |
 | Text             |   Displays text                                               |                                           |
 | Image.network    |                                                  |                                           |
 |Padding|||
