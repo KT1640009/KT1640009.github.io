@@ -1,13 +1,13 @@
 # My coding Notebook
 
 ## Table of Contents
-- [Flutter Guided Notes](#Flutter-Notes)
-  - [What is Flutter?](#What-is-Flutter)
+- [Flutter Guided Notes](#flutter-notes)
+  - [What is Flutter?](#what-is-flutter)
   - [Ket-y Terms and Definition](#practice)
 - [layout and design widgets](layout-and-design-widgets)
-- [Definitions with Structures](#flutter-definitions-with-strutures)
+- [Definitions with Structures](#definitions-with-strutures)
 - [Code Definitions](#code_definitions)
-- [Notebook Style Guide](#markdown-style-guide).
+- [Notebook Style Guide](#notebook-style-guide).
 
 
 
