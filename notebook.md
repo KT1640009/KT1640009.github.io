@@ -7,7 +7,7 @@
 - [Layout And Design Widgets](#layout-and-design-widgets)
 - [Definitions With Structures](#definitions-with-strutures)
 - [Code Definitions](#code-definitions)
-- [Notebook Style Guide](#notebook-style-guide).
+- [Notebook Style Guide](#notebook-style-guide)
 
 
 
